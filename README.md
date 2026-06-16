@@ -55,6 +55,20 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
+## Run the Application
+
+To launch the calculator:
+
+```bash
+python -c "from app.calculator import Calculator; Calculator().run()"
+```
+
+You can perform:
+- Addition
+- Subtraction
+- Multiplication
+- Division
+
 ## Running the Tests
 
 To run all tests:
